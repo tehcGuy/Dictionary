@@ -3,7 +3,7 @@ package com.practice;
 import java.util.ArrayList;
 
 public class Dictionary {
-    ArrayList<Definition> list; //when the object is initialized, it will take this field; this field will belong to the object!!!
+    private ArrayList<Definition> list; //when the object is initialized, it will take this field; this field will belong to the object!!!
 
     public Dictionary() {
         this.list = new ArrayList<Definition>();
